@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form Styles */
+  form {
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    border: 2px solid #000;
+    max-width: 400px; /* Adjusted to match the maximum width of the form in both snippets */
+    margin: 10% auto;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: auto 1fr;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="file"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #39aea9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #308c89; /* Darker shade of the original color */
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  /* File Link Styles */
+  div {
+    margin-top: 1rem;
+  }
+  
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+  
